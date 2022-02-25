@@ -4,6 +4,25 @@
   * https://github.com/dog-dog-svg/react200.git
 * git clone [REPO_URL] [DIR]
   * git clone https://github.com/dog-dog-svg/react200.git
+  ## config 설정
+  * git config --global user.name "dog-dog-svg"
+  * git config --global user.email "support@webisfree.com"
+  * git config --local user.name "dog-dog-svg"
+  * git config --local user.email "qwerew369@gmail.com"
+  ## config 삭제
+  * git config --unset user.name
+  * git config --unset user.email
+  ## remote등록
+  git remote add origin https://github.com/dog-dog-svg/react200.git
+
+  ## branch 이름 변경하기
+   git branch -m master main
+  ## [GitHub] The requested URL returned error: 403
+  git remote set-url origin https://dog-dog-svg@github.com/dog-dog-svg/react200.git
+
+  ## pull
+  git pull origin main
+  git pull origin main --allow-unrelated-histories
 ==========================================================================================================================
 # yarn 설치
 
